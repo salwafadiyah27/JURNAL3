@@ -11,7 +11,7 @@
         <div class="text-center mb-3">
             <!-- ==================4================== -->
             <!-- Tambahkan foto ke public/images, lalu tentukan pathnya -->
-            <img src="logo.png" alt="Foto Profil" class="img-thumbnail rounded-circle" width="150">
+            <img src="{{ asset($mahasiswa->foto) }}" alt="profil.jpg" class="img-thumbnail rounded-circle" width="150">
         </div>
 
         <table class="table table-bordered">

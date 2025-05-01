@@ -16,7 +16,7 @@ class MahasiswaController extends Controller
             'email' => 'budi@examaple.com',
             'jurusan' => 'S1 Sistem Informasi',
             'fakultas' => 'Fakultas Rekayasa Industri',
-            'foto' => 'images/profil.png' // path relatif dari public/
+            'foto' => 'images/profil.jpg' // path relatif dari public/
         ];
 
         // - Kirim object tersebut ke view 'profil'
