@@ -11,9 +11,9 @@ class MahasiswaController extends Controller
         // ==================2==================
         // - Buat object mahasiswa dengan data dummy (nama, nim, email, jurusan, fakultas, foto)
         $mahasiswa = (object) [
-            'nama' => 'Budi Santoso',
-            'nim' => '123456789',
-            'email' => 'budi@examaple.com',
+            'nama' => 'Salwa Fadiyah',
+            'nim' => '102042300052',
+            'email' => 'salwafadiyah27@gmail.com',
             'jurusan' => 'S1 Sistem Informasi',
             'fakultas' => 'Fakultas Rekayasa Industri',
             'foto' => 'images/profil.jpg' // path relatif dari public/
